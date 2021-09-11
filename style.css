@@ -1,0 +1,101 @@
+body{
+    margin: 0%;
+    height:100vh;
+    background-color: aquamarine;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.container{
+    height: 80%;
+    width : 80%;
+    display: grid;
+    grid-template-rows: 25% 75%;
+}
+
+.heading{
+
+    display:flex;
+    align-content: center;
+    justify-content: center;
+    background-color: cornflowerblue;
+    border-radius: 2%;
+    color:white;
+    padding-top: 4%;
+
+}
+
+.incontainer{
+   
+    display:grid;
+    grid-template-columns: 65% 35%;
+    
+    border-radius: 10%;
+}
+    
+.list{
+    grid-column: 2;
+    display:grid;
+}
+.inlist{
+    background-color:rgb(140, 127, 255);
+}
+
+.revfwd{ 
+    background-color: burlywood;
+    display:grid;
+    height: 50px;
+    grid-template-columns: 50% 50%;
+}
+.card{
+    background-color: cornflowerblue;
+}
+.inbody{
+        display:grid;
+        grid-template-rows: 20% 50% 10% 10% 10%;
+        background-color: beige;
+        border-radius: 1%;
+}
+
+.name1{
+
+    display:flex;
+    align-content: center;
+    justify-content: center;
+    background-color: darkmagenta;
+    color:darkturquoise;
+
+}
+.fwd{
+     background-color: chartreuse;
+}
+.pokebutton{
+    width:50%;
+    height:40px;
+    background-color: coral;
+}
+.image{
+
+
+    background-color: gold;
+}
+.type{
+
+    background-color: forestgreen;
+    height: fit-content;
+}
+.weight{
+
+    background-color: hotpink;
+}
+.image{
+  height:250px;
+  width:100%;
+}
+.height{
+    background-color: yellowgreen;
+}
+.baseexprience{
+    background-color: turquoise;
+}
